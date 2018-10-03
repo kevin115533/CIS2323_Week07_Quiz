@@ -15,8 +15,9 @@ public class Play{
 		board.setPiece(r1,7,7);
 		
 		//check some stuff on the board
-		System.out.println("Location 2x2 is occupied " + board.checkOcc(2,2));
-		System.out.println("Location 7x7 is occupied " + board.checkOcc(7,7));
+		System.out.println("Location 2x2 is occupied: " + board.checkOcc(2,2));
+		System.out.println("Location 7x7 is occupied: " + board.checkOcc(7,7));
+		System.out.println("color of the piece at 7x7 is: " + board.checkColor(7,7));
 		
 		
 	}

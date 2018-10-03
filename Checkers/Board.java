@@ -10,4 +10,8 @@ public class Board{
 	public boolean checkOcc(int x, int y){
 		return (board[x][y] != null);
 	}
+	
+	public Piece.Color checkColor(int x, int y){
+		return board[x][y].getColor();
+	}
 }

@@ -19,5 +19,8 @@ public class Piece{
 			color =c;
 	}
 	
+	public Color getColor(){
+		return color;
+	}
 
 }
