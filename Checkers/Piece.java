@@ -3,11 +3,11 @@ package Checkers;
 public class Piece{
 	
 	//class attributes
-	enum COLOR {RED,BLACK};
+	public static enum Color {RED,BLACK};
 	private static int numberOfPieces =0;
 	
 	//instance attributes
-	private COLOR color;
+	private Color color;
 	private int id;
 	
 	public Piece(){
