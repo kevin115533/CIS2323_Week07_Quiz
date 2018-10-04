@@ -9,8 +9,8 @@ public class Play{
 		Piece b1 = new Piece();
 		
 		//setup board and pieces
-		r1.set(Piece.Color.RED);
-		b1.set(Piece.Color.BLACK);
+		r1.set(Color.RED);
+		b1.set(Color.BLACK);
 		board.setPiece(b1,0,0);
 		board.setPiece(r1,7,7);
 		

@@ -3,7 +3,6 @@ package Checkers;
 public class Piece{
 	
 	//class attributes
-	public static enum Color {RED,BLACK};
 	private static int numberOfPieces =0;
 	
 	//instance attributes
